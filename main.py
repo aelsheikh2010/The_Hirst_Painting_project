@@ -30,7 +30,6 @@ tim.forward(300)
 tim.setheading(0)
 tim.speed('fastest')
 number_of_dots = 100
-
 for dot_count in range(1, number_of_dots + 1):
     tim.dot(20, random.choice(color_list))
     tim.forward(50)
